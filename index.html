@@ -10495,11 +10495,8 @@ header.masthead .masthead-venue { margin: 0; color: #f9eee7; font-size: .98rem; 
 .keynote-row .event-title { color: #83301d; }
 .buffer-row { background: #f5f3f2; }
 .buffer-row .event-title { color: var(--forum-muted); font-weight: 600; }
-.paper-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .32rem .5rem; margin-top: .32rem; }
+.paper-meta { display: flex; margin-top: .32rem; }
 .paper-id { color: var(--forum-muted); font: .75rem/1.4 var(--forum-sans); }
-.event-tag { display: inline-block; padding: .1rem .42rem; border-radius: .2rem; color: #494447; background: #eeebed; font: 650 .68rem/1.35 var(--forum-sans); }
-.tag-keynote { color: #85341e; background: #f7d9c8; vertical-align: .08em; margin-left: .3rem; }
-.tag-in-person { color: #2a503c; background: #e7f0e9; }
 
 .venue-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .6rem 1.1rem; }
 .venue-links a, .chair-links a, .announcement { color: var(--forum-accent); font: 700 .87rem var(--forum-sans); }
@@ -10659,7 +10656,6 @@ header.masthead .masthead-venue { margin: 0; color: #f9eee7; font-size: .98rem; 
           <div class="filters" role="group" aria-label="Filter program">
             <button type="button" data-filter="all" aria-pressed="true">All events</button>
             <button type="button" data-filter="keynote" aria-pressed="false">Forum keynotes</button>
-            <button type="button" data-filter="in-person" aria-pressed="false">In person</button>
           </div>
           <div class="tool-actions">
             <input type="search" class="form-control" id="program-search" aria-label="Search the program" placeholder="Search event, author or ID" autocomplete="off" spellcheck="false" aria-controls="program-sessions">
@@ -10690,37 +10686,37 @@ header.masthead .masthead-venue { margin: 0; color: #f9eee7; font-size: .98rem; 
                 <tbody role="rowgroup">
                   <tr class="keynote-row" role="row" data-event="keynote">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T10:20:00-06:00">10:20</time>–<time datetime="2026-12-02T10:50:00-06:00">10:50</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 1</strong> <span class="event-tag tag-keynote">30 min</span></td>
+                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 1</strong></td>
                     <td class="event-byline" role="cell"></td>
                   </tr>
-                  <tr id="S60208" role="row" data-event="in-person">
+                  <tr id="S60208" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T10:50:00-06:00">10:50</time>–<time datetime="2026-12-02T11:05:00-06:00">11:05</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">MovieSTAGE: Scene, Transition, and Global Encoding for Movie-fMRI ADHD Classification</strong><div class="paper-meta"><span class="paper-id">S60208</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">MovieSTAGE: Scene, Transition, and Global Encoding for Movie-fMRI ADHD Classification</strong><div class="paper-meta"><span class="paper-id">S60208</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Boseong Kim, Haejun Chung, and Ikbeom Jang</span></td>
                   </tr>
-                  <tr id="S60212" role="row" data-event="in-person">
+                  <tr id="S60212" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T11:05:00-06:00">11:05</time>–<time datetime="2026-12-02T11:20:00-06:00">11:20</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">Foundation-Model-Based Latent Representation Learning for Intraocular Tumor Classification and Visualization</strong><div class="paper-meta"><span class="paper-id">S60212</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">Foundation-Model-Based Latent Representation Learning for Intraocular Tumor Classification and Visualization</strong><div class="paper-meta"><span class="paper-id">S60212</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Noriyoshi Takahashi, Navya Bellamkonda, Kamran Kiasaleh, Rafael Ufret-Vincenty, Judy E. Kim, J. William Harbour, and Jui-Kai Wang</span></td>
                   </tr>
-                  <tr id="S60215" role="row" data-event="in-person">
+                  <tr id="S60215" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T11:20:00-06:00">11:20</time>–<time datetime="2026-12-02T11:35:00-06:00">11:35</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">DDI-LoRA: A Low-Rank Semantic Adapter for Cold-Start Drug–Drug Interaction Prediction</strong><div class="paper-meta"><span class="paper-id">S60215</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">DDI-LoRA: A Low-Rank Semantic Adapter for Cold-Start Drug–Drug Interaction Prediction</strong><div class="paper-meta"><span class="paper-id">S60215</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Jiheng Liang, Chen Zhao, and Yi He</span></td>
                   </tr>
-                  <tr id="S60216" role="row" data-event="in-person">
+                  <tr id="S60216" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T11:35:00-06:00">11:35</time>–<time datetime="2026-12-02T11:50:00-06:00">11:50</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">Motif2Gene: A Post-Hoc Interpretation Pipeline Linking Machine Learning-Identified Genomic Regions to Genes, Motifs, and Transcription Factors</strong><div class="paper-meta"><span class="paper-id">S60216</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">Motif2Gene: A Post-Hoc Interpretation Pipeline Linking Machine Learning-Identified Genomic Regions to Genes, Motifs, and Transcription Factors</strong><div class="paper-meta"><span class="paper-id">S60216</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Tejaswi Vemuri, Joann Mudge, Bella Root, Elyse Onstott, Thiruvarangan Ramaraj, Brendan Mumey, and Indika Kahanda</span></td>
                   </tr>
-                  <tr id="S60222" role="row" data-event="in-person">
+                  <tr id="S60222" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T11:50:00-06:00">11:50</time>–<time datetime="2026-12-02T12:05:00-06:00">12:05</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">RADAgent: Automating RADseq Pipelines with Private Open-Source LLMs</strong><div class="paper-meta"><span class="paper-id">S60222</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">RADAgent: Automating RADseq Pipelines with Private Open-Source LLMs</strong><div class="paper-meta"><span class="paper-id">S60222</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Qiming Guo, Sukruth Reddy, Honggang Zhao, Ye Wang, Chen Pan, and Wenlu Wang</span></td>
                   </tr>
-                  <tr id="S60226" role="row" data-event="in-person">
+                  <tr id="S60226" role="row" data-event="paper">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T12:05:00-06:00">12:05</time>–<time datetime="2026-12-02T12:20:00-06:00">12:20</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">An LLM-Guided Computational Framework for Metaproteomics-Informed Genome-Scale Metabolic Modeling of Microbial Communities</strong><div class="paper-meta"><span class="paper-id">S60226</span> <span class="event-tag tag-in-person">In person</span></div></td>
+                    <td class="event-text" role="cell"><strong class="event-title">An LLM-Guided Computational Framework for Metaproteomics-Informed Genome-Scale Metabolic Modeling of Microbial Communities</strong><div class="paper-meta"><span class="paper-id">S60226</span></div></td>
                     <td class="event-byline" role="cell"><span class="event-description">Bailu Zhang, Shichao Feng, Dongyu Wang, Shuiyi Liu, Yi Xiong, Chongle Pan, and Xuan Guo</span></td>
                   </tr>
                 </tbody>
@@ -10745,7 +10741,7 @@ header.masthead .masthead-venue { margin: 0; color: #f9eee7; font-size: .98rem; 
                 <tbody role="rowgroup">
                   <tr class="keynote-row" role="row" data-event="keynote">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T13:30:00-06:00">13:30</time>–<time datetime="2026-12-02T14:00:00-06:00">14:00</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 2</strong> <span class="event-tag tag-keynote">30 min</span></td>
+                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 2</strong></td>
                     <td class="event-byline" role="cell"></td>
                   </tr>
                   <tr id="S60204" role="row" data-event="paper">
@@ -10800,7 +10796,7 @@ header.masthead .masthead-venue { margin: 0; color: #f9eee7; font-size: .98rem; 
                 <tbody role="rowgroup">
                   <tr class="keynote-row" role="row" data-event="keynote">
                     <td class="event-time" role="cell"><span class="time-range"><time datetime="2026-12-02T15:50:00-06:00">15:50</time>–<time datetime="2026-12-02T16:20:00-06:00">16:20</time></span></td>
-                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 3</strong> <span class="event-tag tag-keynote">30 min</span></td>
+                    <td class="event-text" role="cell"><strong class="event-title">Forum keynote 3</strong></td>
                     <td class="event-byline" role="cell"></td>
                   </tr>
                   <tr id="S60228" role="row" data-event="paper">
